@@ -1,0 +1,37 @@
+
+.layoutBox {
+  position: fixed;
+  display: none;
+  left: 0px;
+  right: 0px;
+  top: 0px;    
+   bottom: 0px; 
+  z-index: 100;
+  padding: auto;
+  text-align: center;
+  background-color: #0003;
+  border: 1px solid #d0cfcf;
+  /*padding: 50px 0px;*/
+}
+
+ 
+
+.close {
+  position: absolute;
+  right: 10px;
+  top: 0px;
+  width: 40px;
+  height: 40px;
+
+}
+
+
+.closeIcon{
+  width: 40px;
+  height: 40px;
+  background-size: 40px 40px;
+   background-color: red;
+    border-radius: 20px;
+  background-image: url(/static/css/close.svg);
+
+ }
